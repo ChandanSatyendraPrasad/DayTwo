@@ -47,8 +47,10 @@ public class ExpressionType {
         int doctorG = s2.length();
         System.out.println("doctorG = " + doctorG);
         while (doctorG != 0) {
-            System.out.println(doctorG);
-            System.out.println(s2.substring(doctorG-1));
+           System.out.println(doctorG);
+           System.out.println(s2.substring(doctorG-1));
+            System.out.println(s2.charAt(doctorG-1));
+
             doctorG--;
         }
 
